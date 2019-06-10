@@ -78,7 +78,7 @@ werewolf occurs 3 time/s in lines:   4 13 22
 ```
 ##Changelog
 ---
-### [v1.0](https://github.com/gitguuddd/Obj_5/releases/tag/v1.0)(2019-06-11)
+### [v1.0](https://github.com/gitguuddd/Obj_5/releases/tag/v1.0) (2019-06-11)
 **Added**
 - Initial files ```main.cpp, funcs.h, funcs.cpp, Wordinfo.cpp, Wordinfo.h```
 - README file
