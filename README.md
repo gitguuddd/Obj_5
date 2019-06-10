@@ -76,7 +76,7 @@ way occurs 2 time/s in lines:   4 21
 werewolf occurs 3 time/s in lines:   4 13 22
 ########################LINKS########################
 ```
-##Changelog
+## Changelog
 ---
 ### [v1.0](https://github.com/gitguuddd/Obj_5/releases/tag/v1.0) (2019-06-11)
 **Added**
