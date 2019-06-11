@@ -5,6 +5,8 @@
 ## About the program
 This program is used to read text files and to check how often and where in the text are unique words used. This program is also capable of detecting URL's.
 ## v2.0 Test example and test results
+
+Given that input text looks like this:
 ```
 “I’ll do it,” snarled Fenrir, moving toward Dumbledore with his
 hands outstretched, his teeth bared.
