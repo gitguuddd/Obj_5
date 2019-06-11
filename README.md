@@ -156,7 +156,7 @@ werewolf occurs 3 time/s in lines:   4 13 22
 ```
 ## Changelog
 ---
-### [v2.0](https://github.com/gitguddd/Obj_5/releases/tag/v2.0) (2019-06-11)
+### [v2.0](https://github.com/gitguuddd/Obj_5/releases/tag/v2.0) (2019-06-11)
 **Added**
 - exam tasks (1 and 2)
 
