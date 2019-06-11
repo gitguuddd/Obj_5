@@ -6,6 +6,7 @@
 #define OOP5_WORDINFO_H
 
 #include <vector>
+#include <algorithm>
 using std::vector;
 
 class Wordinfo {
@@ -17,7 +18,9 @@ public:
     explicit Wordinfo(int occur){count++;
     occurs.push_back(occur);}
     void addc(){count++;}
-    void addref(int occur){occurs.push_back(occur);}
+    void addref(int occur){
+        if(std::find(occurs.begin(),occurs.end(),occur)==occurs.end())
+        occurs.push_back(occur);}
     int getcount(){return count;}
     vector<int> getoccurs(){return occurs;}
 

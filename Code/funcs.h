@@ -18,11 +18,13 @@ using std::regex;
 using std::ifstream;
 using std::map;
 using std::string;
+extern int maxoccur;
  const regex rword (R"([^\W_]+(?:['_-][^\W_]+)*)");
  const regex rlink ("(https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})");
-
+string occtostring(vector<int>occurences);
+void findmaxoccurs(int& maxoccur,map<string,Wordinfo> a);
 void read(std::ifstream & input,map<string,Wordinfo>& words, std::set<string>&  links);
-void print(std::ofstream & output, map<string,Wordinfo> words, std::set<string> links);
+void print(std::ofstream & output, map<string,Wordinfo> words, std::set<string> links, int maxoccurr);
 
 
 #endif //OOP5_FUNCS_H
