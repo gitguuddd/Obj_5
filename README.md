@@ -1,3 +1,8 @@
+## Link to the requirements of the task
+[5 task](https://github.com/objprog/paskaitos2019/wiki/5-oji-u%C5%BEduotis) 
+
+---
+
 ## Install instructions
 1. Clone repository```$ git clone https://github.com/gitguuddd/Obj_5.git```
 2. Compile program by using CMakeLists.txt file
@@ -155,6 +160,10 @@ werewolf occurs 3 time/s in lines:   4 13 22
 ########################LINKS########################
 ```
 ## Changelog
+---
+### [v2.1](https://github.com/gitguuddd/Obj_5/releases/tag/v2.1) (2019-07-06)
+**Added**
+- Link to the requirements of the task
 ---
 ### [v2.0](https://github.com/gitguuddd/Obj_5/releases/tag/v2.0) (2019-06-11)
 **Added**
